@@ -7,7 +7,7 @@ print ('loading preambles..')
 NLP_CORE = spacy.load('en_core_web_lg')
 FIND_WIKI = wikipediaapi.Wikipedia('en')
 ENTS_TYPE = ['PERSON', 'FACILITY', 'ORG', 'GPE', 'LOC', 'WORK_OF_ART', 'RETRIEVED_ENTRY']
-NLP_VEC = spacy.load('en_core_web_lg')
+NLP_VEC = spacy.load('en_vectors_web_lg')
 print ('loading finished..')
 
 
